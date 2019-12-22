@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 111111
+    username: root
+    url: jdbc:mysql://localhost:3306/springcloud_sell?useSSL=false&serverTimezone=UTC&allowMultiQueries=true
+  jpa:
+    show-sql: true
+server:
+  port: 8091
+env:
+   test2
